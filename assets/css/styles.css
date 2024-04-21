@@ -1,0 +1,181 @@
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    background: rgb(36, 19, 0);
+    background: linear-gradient(146deg, rgba(36, 19, 0, 1) 0%, rgba(255, 177, 0, 1) 100%);
+    color: #fff;
+    height: 7rem;
+    align-content: center;
+}
+
+.titulo {
+  width: 90%;
+  font-size: 3rem;
+}
+
+.configuraciones {
+  width: 10%;
+}
+
+/* ICONOS */
+.icon {
+  width: 40px;
+  height: 40px;
+  font-size: 2rem;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  flex-wrap: wrap;
+  background-size: cover;
+}
+
+.likes {
+  background-image: url(../../assets/pictures/icons/heart.png);
+}
+
+.coments {
+  background-image: url(../../assets/pictures/icons/coments.png);
+}
+
+.share {
+  background-image: url(../../assets/pictures/icons/share.webp);
+}
+
+.home {
+  background-image: url(../../assets/pictures/icons/home.png);
+}
+
+.search {
+  background-image: url(../../assets/pictures/icons/search.webp);
+}
+
+.notifications {
+  background-image: url(../../assets/pictures/icons/bell.png);
+}
+
+.mail {
+  background-image: url(../../assets/pictures/icons/mail.png);
+}
+
+.save {
+  background-image: url(../../assets/pictures/icons/save.webp);
+}
+
+.config {
+  background-image: url(../../assets/pictures/icons/tuerca.png);
+}
+
+.content-social {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  max-width: 1440px;
+}
+
+.publish {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+}
+
+.picture {
+  position: absolute;
+  top: 0;
+  left: 1rem;
+}
+
+.picture img {
+  width: 2rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.vistas {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+span.selection {
+  width: calc(50% - 1rem);
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+span.active {
+  position: relative;
+}
+
+span.active::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  background-color: blue;
+}
+
+.publication {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  border: 3px solid #000;
+  padding: 1.2rem;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.title-pub {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.description-pub {
+  font-size: 1.1rem;
+  text-align: justify;
+  width: 80.1%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.content-pub iframe {
+  margin: 0 auto;
+  display: block;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.foot-pub {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.left, .rigth {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 5%;
+    gap: 1rem;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+}
